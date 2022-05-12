@@ -82,7 +82,7 @@ public class ServicoService {
         }
     }
 
-    @Scheduled(fixedRate = 15000)
+    @Scheduled(fixedRate = 300000)
     public void jobReceita() {
 
         Document doc = null;
